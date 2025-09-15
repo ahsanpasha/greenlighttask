@@ -1,0 +1,267 @@
+.our-websitesfirst {
+    display: flex;
+    flex-direction: row;
+    gap: 47.43px;
+    align-items: center;
+}
+
+.our-websitesfirstimg {
+    display: flex;
+    flex-direction: row;
+    gap: 11.96px;
+    align-items: center;
+}
+
+.our-websitesfirstimg1 {
+    width: 43.031272888183594px;
+    height: 43.031272888183594px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #89D991;
+    border-radius: 50px;
+}
+
+.our-websitesfirsttitle {
+    font-family: HeroNew-ExtraBold;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 70px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: -3%;
+    text-transform: capitalize;
+    margin: 0px !important;
+    color: #240D4B;
+}
+
+.our-websites {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.our-websitesbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 51px;
+    width: 250px;
+    font-family: HeroNew-SemiBold;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 19px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #022221;
+    background-color: #89D991;
+    border-radius: 11px;
+    border: none;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.our-websitesbtn:hover {
+    opacity: 0.8;
+}
+
+
+.cagneytext {
+    margin: 0px !important;
+    font-family: HeroNew-Extrabold;
+    font-weight: 900;
+    font-style: Super;
+    font-size: 29px;
+    leading-trim: NONE;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color: #232323;
+}
+
+.secondtext {
+    margin-top: 3px !important;
+    font-family: HeroNew;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #232323;
+}
+
+.imageweb {
+    width: 463px;
+    height: 260px;
+    margin-bottom: 34px;
+}
+
+.our-websitessecond {
+    display: flex;
+    flex-direction: column;
+}
+
+.our-websitesmain {
+    display: flex;
+    flex-direction: column;
+    gap: 109px;
+    margin: 188px 100px 74px 100px;
+}
+
+.our-websitescontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.our-websitescontainer::-webkit-scrollbar {
+    display: none;
+}
+
+.arrowwwwbb {
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.arrowwwwbb:hover {
+    opacity: 0.7;
+}
+
+
+@media (max-width:1650px) {
+    .our-websitesfirsttitle {
+        font-size: 60px;
+    }
+       /* .our-websites{
+            margin: 0px !important;
+        } */
+}
+
+@media (max-width:1490px) {
+    .our-websitesfirsttitle {
+        font-size: 54px;
+    }
+
+    .our-websitesbtn {
+        width: 220px;
+        font-size: 18px;
+    }
+
+    .our-websitesmain {
+        margin: 100px 70px 50px 70px;
+    }
+
+    .arrowwwwbb {
+        height: 36px;
+    }
+
+    .our-websitesmain {
+        gap: 60px;
+    }
+
+    .our-websitescontainer {
+        gap: 30px;
+    }
+
+    .cagneytext {
+        font-size: 24px;
+    }
+
+    .secondtext {
+        font-size: 13px;
+    }
+
+    .imageweb {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width:1100px) {
+    .our-websitesmain {
+        margin: 80px 50px 50px 50px;
+    }
+
+    .our-websitesfirsttitle {
+        font-size: 48px;
+    }
+
+    .our-websitesfirst {
+        gap: 20px;
+    }
+}
+
+
+@media (max-width:850px) {
+    .our-websitesfirsttitle {
+        font-size: 42px;
+    }
+
+    .our-websites {
+        flex-direction: column;
+        gap: 20px;
+        align-items: end;
+    }
+
+    .our-websitesfirst {
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+@media (max-width:700px) {
+    .our-websitesmain {
+        margin: 60px 30px 30px 30px;
+    }
+}
+
+@media (max-width:600px) {
+    .our-websitesfirsttitle {
+        font-size: 36px;
+    }
+
+    .arrowwwwbb {
+        height: 24px;
+    }
+
+    .our-websitesfirstimg {
+        gap: 8px
+    }
+    .our-websitesbtn{
+        width: 170px;
+        font-size: 14px;
+    height: 40px;
+    }
+    .our-websitesmain{
+        gap: 30px;
+    }
+    .our-websitesbtn{
+        font-size: 12px;
+    }
+        .our-websitesbtn {
+        width: 140px;}
+     
+}
+
+@media (max-width:440px) {
+    .our-websitesmain {
+        margin: 50px 20px 30px 20px;
+    }
+
+    .our-websitesfirsttitle {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:400px){
+    .our-websitesfirsttitle {
+        font-size: 28px;
+    }
+}

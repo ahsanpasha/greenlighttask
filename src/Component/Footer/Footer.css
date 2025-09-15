@@ -1,0 +1,398 @@
+.lettalk {
+    font-family: HeroNew-ExtraBold;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 70px;
+    leading-trim: NONE;
+    line-height: 100px;
+    letter-spacing: -3%;
+    text-align: left;
+    color: #AEE9B6;
+    margin-bottom: 2px;
+}
+
+.footertext {
+    font-family: HeroNew;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 19px;
+    leading-trim: NONE;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    max-width: 465px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #012221;
+    margin-top: 186px;
+    align-items: center;
+    padding: 95px 0px 75.55px 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.emaildiv {
+    display: flex;
+    flex-direction: row;
+    gap: 19.27px;
+    margin-bottom: 14px;
+}
+
+.emailtextttt {
+    font-family: HeroNew;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 19px;
+    leading-trim: NONE;
+    line-height: 25px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.socialiconssssssss {
+    display: flex;
+    flex-direction: row;
+    gap: 22.15px;
+    margin-top: 7px;
+}
+
+.fotterright {
+    backdrop-filter: blur(16.61910057067871px);
+    border-top-left-radius: 67px;
+    border-bottom-left-radius: 67px;
+    border-bottom: 11px solid #AEE9B6;
+    border-top: 11px solid #AEE9B6;
+    border-left: 11px solid #AEE9B6;
+    padding: 74px 98px 74px 74px;
+    display: flex;
+    flex-direction: row;
+    gap: 68px;
+}
+
+.inputtfotter {
+    border: 2px solid #AEE9B7;
+    width: 413px;
+    height: 43px;
+    border-radius: 6px;
+    background-color: transparent;
+    padding-left: 12px;
+}
+
+.inputtfotter:focus,
+.inputtfottertext:focus {
+    outline: none;
+}
+
+.inputtfottertext {
+    border: 2px solid #AEE9B7;
+    width: 512px;
+    height: 218px;
+    border-radius: 6px;
+    background-color: transparent;
+    padding-left: 12px;
+    resize: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.paddddd{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.nametext {
+    font-family: HeroNew-ExtraBold;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 19px;
+    leading-trim: NONE;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 2px;
+}
+
+.inputdivfooter {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sendbtn {
+    border: none;
+    outline: none;
+    background-color: #AEE9B6;
+    border-radius: 9px;
+    width: 144px;
+    height: 47px;
+    font-family: HeroNew-ExtraBold;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 19px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #022221;
+    margin-top: 5px;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.sendbtn:hover {
+    opacity: 0.8;
+}
+
+.submitdiv {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media (max-width:1800px) {
+    .fotterright {
+        gap: 20px;
+        justify-content: space-between;
+        padding: 40px;
+    }
+}
+
+@media (max-width:1650px) {
+
+  
+
+    .lettalk {
+        font-size: 60px;
+    }
+
+    .footertext {
+        font-size: 17px;
+        max-width: 400px;
+    }
+    .bottomlogo{
+width: 320px;
+    }
+
+    .emailtextttt,
+    .nametext {
+        font-size: 17px;
+    }
+
+    .inputtfotter,
+    .inputtfottertext {
+        width: 350px;
+    }
+
+    .footer {
+        padding-left: 70px;
+    }
+}
+
+@media (max-width:1200px) {
+    .footer {
+        padding-left: 50px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .fotterright {
+        align-self: flex-end;
+    }
+
+    .footertext {
+        font-size: 16px;
+        max-width: 390px;
+    }
+
+    .emailtextttt,
+    .nametext {
+        font-size: 16px;
+    }
+    .padd{
+flex-direction: column !important;
+align-items: flex-end;
+gap: 40px;
+    }
+    .bottomlogo{
+        align-self: self-start;
+    }
+}
+
+@media (max-width:900px) {
+    .fotterright {
+        flex-direction: column;
+        border: none;
+    }
+
+    .fotterright {
+        width: 90%;
+    }
+
+    .inputtfotter,
+    .inputtfottertext {
+        width: 100%;
+        max-width: unset;
+    }
+}
+
+/* Tablet & Mobile - max 768px */
+@media (max-width: 768px) {
+    .footer {
+        padding: 40px 30px;
+        align-items: center;
+        gap: 40px;
+    }
+    .br{
+display: none;
+    }
+
+    .lettalk {
+        font-size: 42px;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    .footertext {
+        font-size: 15px;
+        line-height: 26px;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .emaildiv,
+    .socialiconssssssss {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .fotterright {
+        width: 100%;
+        padding: 30px;
+        border-radius: 30px;
+        border-width: 6px;
+        gap: 30px;
+        align-self: center;
+    }
+ .bottomlogo{
+    width: 220px;
+ }
+    .nametext {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .inputtfotter,
+    .inputtfottertext {
+        width: 100%;
+    }
+
+    .sendbtn {
+        width: 100%;
+        font-size: 16px;
+        height: 45px;
+    }
+.neweewewewe{
+    width: 16px;
+    height: 16px;
+}
+    /* .fotterright{
+        border: 7px solid #AEE9B6;
+    } */
+    .submitdiv {
+        justify-content: center;
+    }
+    .emaildiv{
+        gap: 12px;
+    }
+
+    .myfjsdbfk{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .padd{
+        align-items: center;
+        justify-content:center ;
+
+    }
+    .bottomlogo{
+        align-self: center;
+    }
+}
+
+
+/* Mobile - max 480px */
+@media (max-width: 480px) {
+    .lettalk {
+        font-size: 34px;
+        line-height: 48px;
+    }
+
+    .footertext {
+        font-size: 14px;
+        line-height: 22px;
+    }
+.inputtfotter{
+width: 240px;
+}
+    .emailtextttt,
+    .emaildiv p {
+        font-size: 14px;
+    }
+
+    .fotterright {
+        padding: 25px;
+        border-width: 5px;
+    }
+
+    .inputtfotter {
+        height: 38px;
+    }
+
+    .inputtfottertext {
+        height: 160px;
+    }
+.neweewewewe
+    .sendbtn {
+        height: 42px;
+        font-size: 15px;
+    }
+}
+
+
+/* Very small devices - max 360px */
+@media (max-width: 360px) {
+    .lettalk {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .footertext {
+        font-size: 13px;
+    }
+
+    .nametext {
+        font-size: 14px;
+    }
+
+    .fotterright {
+        padding: 20px;
+        border-width: 4px;
+    }
+
+    .inputtfottertext {
+        height: 140px;
+    }
+
+    .sendbtn {
+        font-size: 14px;
+    }
+}
+    
+
+

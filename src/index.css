@@ -1,0 +1,62 @@
+:root {
+  font-family: HeroNew-Bold;
+
+
+  color-scheme: light dark;
+  background-color: #FFFFFF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, li, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'HeroNew-Bold';
+  src: url('/Fonts/Hero New Bold.otf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HeroNew-ExtraBold';
+  src: url('/Fonts/Hero New ExtraBold.otf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'HeroNew-Medium';
+  src: url('/Fonts/Hero New Medium.otf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'HeroNew';
+  src: url('/Fonts/Hero New Regular.otf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'HeroNew-SemiBold';
+  src: url('/Fonts/Hero New SemiBold.otf') format('truetype');
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Neue Reman Gt';
+  src: url('/Fonts/NeueRemanGt-Heavy.otf') format('truetype');
+  font-display: swap;
+}
+
+p{
+  margin: 0px;
+}

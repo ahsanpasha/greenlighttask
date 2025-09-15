@@ -1,0 +1,378 @@
+.getwebsiteimg {
+    height: auto;
+
+    width: 874px;
+}
+
+.getwebsitediv {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 21px;
+}
+
+.getwebsiteimgnew {
+    width: 78px;
+    height: 78px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #89D991;
+}
+
+.getwebsitedivmain {
+    display: flex;
+    flex-direction: column;
+    gap: 11.5px;
+}
+
+.getwebsitemainnnnnn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-top-left-radius: 67px;
+    border-bottom-left-radius: 67px;
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 96px 60px 60px 83px;
+    overflow: hidden;
+}
+
+.getwebsite {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.selecttext {
+    font-family: HeroNew-ExtraBold;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 29px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #240D4B;
+    margin: 0px !important;
+}
+
+.selecttextdesc {
+    margin: 0px !important;
+    font-family: HeroNew;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 19px;
+    leading-trim: NONE;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #022221;
+}
+
+.lineee {
+    width: 1px;
+    height: 35px;
+    margin-left: 39.5px;
+}
+
+.getwebsitetext {
+    font-family: HeroNew-ExtraBold;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 70px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: -3%;
+    color: #240D4B;
+    margin: 0px !important;
+}
+
+.getwebsitetext1 {
+    color: #89D991;
+}
+
+.lineee1333 {
+    width: 30.4931640625px;
+    height: 46.3935546875px;
+    margin-left: 39.5px;
+}
+
+.getwebsitetalkbtnnn {
+    width: 167px;
+    height: 51px;
+    border-radius: 11px;
+    border: 5px solid #89D991;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: HeroNew-ExtraBold;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 19px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #232323;
+    margin-top: 37.27px !important;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.getwebsitetalkbtnnn:hover {
+    opacity: 0.8;
+}
+
+.getwebsitedivbtnnnnnn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 29.01px;
+}
+
+.grupppp {
+    position: absolute;
+    right: 0;
+    bottom: -150px;
+}
+
+
+@media (max-width:1850px) {
+    .getwebsiteimg {
+        width: 750px;
+    }
+
+    .getwebsitemainnnnnn {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+    }
+}
+
+@media (max-width:1710px) {
+    .getwebsitetext {
+        font-size: 55px;
+    }
+
+    .getwebsiteimgnew {
+        height: 60px;
+        width: 60px;
+    }
+
+    .arrowselectt {
+        height: 30px;
+    }
+
+    .grupppp {
+        width: 300px;
+    }
+
+    .getwebsiteimg {
+        width: 700px;
+    }
+
+    .selecttext {
+        font-size: 26px;
+    }
+
+    .selecttextdesc {
+        font-size: 16px;
+    }
+
+    .getwebsitetalkbtnnn {
+        width: 150px;
+        font-size: 16px;
+    }
+
+    .getwebsitetext {
+        font-size: 48px;
+    }
+
+    .lineee,
+    .lineee1333 {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:1490px) {
+    .grupppp {
+        width: 260px;
+    }
+
+    .getwebsiteimg {
+        width: 670px;
+    }
+}
+
+@media (max-width:1350px) {
+    .getwebsitetext {
+        font-size: 40px;
+    }
+
+    .getwebsitemainnnnnn {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+    }
+
+    .grupppp {
+        width: 230px;
+    }
+
+    .getwebsiteimg {
+        width: 610px;
+    }
+
+    .selecttext {
+        font-size: 20px;
+    }
+
+    .selecttextdesc {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .getwebsitediv {
+        gap: 14px;
+    }
+}
+
+@media (max-width:1150px) {
+    .getwebsiteimg {
+        width: 550px;
+    }
+
+    .getwebsitetext {
+        font-size: 36px;
+    }
+
+    .getwebsiteimg {
+        width: 500px;
+    }
+}
+
+@media (max-width:1050px) {
+
+    .getwebsiteimgnew {
+        height: 40px;
+        width: 40px;
+    }
+
+        .arrowselectt {
+        height: 20px;
+    }
+.lineee, .lineee1333{
+    margin-left: 20px;
+}
+    .getwebsitetalkbtnnn {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+    }
+.getwebsitemainnnnnn{
+    gap: 24px;
+}
+    .getwebsiteimg {
+        width: 400px;
+    }
+   
+}
+
+@media (max-width:950px) {
+    .getwebsite{
+        flex-direction: column;
+    }
+    .arrowselectt {
+padding: 0px;
+margin: 0px;
+    }
+    .getwebsite{
+        gap: 20px;
+    }
+    .getwebsitemainnnnnn{
+        width: 80%;
+        align-self: self-end;
+    }
+    .getwebsiteimg{
+        align-self: start;
+    }
+}
+
+@media (max-width:600px) {
+.getwebsitetext{
+            font-size: 30px;
+}
+    .selecttext {
+        font-size: 18px;
+    }
+    .selecttextdesc{
+        font-size: 12px;
+    }
+        .grupppp {
+        width: 200px;
+    }
+    .getwebsitedivmain{
+        gap: 6px;
+    }
+        .getwebsitetalkbtnnn {
+        width: 100px;
+        height: 40px;
+            border-width: 3px;
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width:440px) {
+       .getwebsitemainnnnnn{
+        width: 82%;
+    }
+    .selecttextdesc{
+        font-size: 11px;
+    }
+    .selecttext{
+        font-size: 16px;
+    }
+    .getwebsitetext{
+        font-size: 26px;
+    }
+    .getwebsitediv{
+        gap: 10px;
+    }
+        .grupppp {
+        width: 150px;
+    bottom: -120px;
+}
+.getwebsitemainnnnnn{
+    padding: 20px;
+}
+.getwebsiteimg{width: 100%;}
+.getwebsitemainnnnnn{
+        border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+}
+.getwebsitetext {
+        font-size: 22px;
+    }
+}
+
+@media(max-width:420px){
+        .selecttextdesc {
+        font-size: 10px;
+        line-height: 12px;
+        margin-top: 4px !important;
+    }
+    .getwebsitedivbtnnnnnn{
+        gap: 12px;
+    }
+        .grupppp {
+        width: 130px;
+        bottom: -90px;
+    }
+}

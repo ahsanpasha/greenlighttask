@@ -1,0 +1,388 @@
+.greenlight-created-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 26px;
+    padding-right: 40px;
+}
+
+.greenlight-created {
+    background-color: #240D4B;
+    padding: 0px 98px 189px 98px;
+}
+
+.messagetext {
+    background-color: #AEE9B6;
+    padding: 1px 28px;
+    width: 356px;
+    border-radius: 9px;
+    font-family: HeroNew;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 23px;
+    leading-trim: NONE;
+    line-height: 32px;
+    letter-spacing: -3%;
+    text-align: center;
+    color: #240D4B;
+}
+
+.createdtextgreen {
+    font-family: HeroNew-ExtraBold;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 70px;
+    leading-trim: NONE;
+    line-height: 88px;
+    letter-spacing: -3%;
+    color: #240D4B;
+}
+
+.createdtexttttttttt {
+    margin-left: -340px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.whenitext {
+    font-family: HeroNew;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 19px;
+    leading-trim: NONE;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #232323;
+    margin-top: 16px;
+    margin-bottom: 10.37px;
+    max-width: 630px;
+}
+
+.thankyou {
+    font-family: HeroNew-Bold;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 19px;
+    leading-trim: NONE;
+    line-height: 100%;
+}
+
+.nameofsign {
+    font-family: HeroNew-ExtraBold;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 19px;
+    leading-trim: NONE;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #232323;
+}
+
+.boldsign {
+    font-family: HeroNew;
+    font-weight: 400;
+}
+
+.signnamebutton {
+    margin-top: 14.33px;
+    display: flex;
+    flex-direction: row;
+    gap: 249px;
+}
+
+.getstartedbtnn {
+    background-color: #240D4B;
+    width: 174px;
+    height: 51px;
+    color: #FFFFFF;
+    border-radius: 11px;
+    font-family: HeroNew-ExtraBold;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 19px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.getstartedbtnn:hover {
+    opacity: 0.8;
+}
+
+.whenistarteddiv {
+    margin-left: -10px;
+}
+
+.greenlight-created-texttt {
+    margin-top: 14px;
+}
+
+@media (max-width:1800px) {
+    .createdtextgreen {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .whenitext,
+    .nameofsign,
+    .thankyou {
+        font-size: 17px;
+    }
+
+    .nameofsign {
+        white-space: nowrap;
+    }
+
+}
+
+@media (max-width:1750px) {
+    .createdtextgreen {
+        font-size: 54px;
+    }
+
+    .createdtexttttttttt {
+        margin-left: -270px;
+    }
+
+    .man {
+        width: 700px;
+    }
+
+    .messagetext {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width:1550px) {
+
+    .createdtextgreen {
+        font-size: 48px;
+        line-height: 50px;
+    }
+
+    .whenitext,
+    .nameofsign,
+    .thankyou {
+        font-size: 14px;
+    }
+
+    .getstartedbtnn {
+        width: 150px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .nameofsign {
+        line-height: 20px;
+    }
+}
+
+@media (max-width:1490px) {
+    .greenlight-created {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .createdtextgreen {
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    .whenitext,
+    .nameofsign,
+    .thankyou {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .messagetext {
+        font-size: 18px;
+    }
+
+    .messagetext {
+        width: 300px;
+    }
+
+    .signnamebutton {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:1430px) {
+    .man {
+        width: 655px;
+    }
+
+    .createdtexttttttttt {
+        margin-left: -200px;
+    }
+}
+
+@media (max-width:1400px) {
+    .greenlight-created-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .man {
+        align-self: flex-start;
+    }
+
+    .greenlight-created-container {
+        padding-bottom: 30px;
+    }
+
+    .createdtexttttttttt,
+    .whenitext,
+    .whenistarteddiv {
+        margin: 0px;
+    }
+
+    .messagetext {
+        font-size: 16px;
+        width: 250px;
+    }
+
+    .greenlight-created-texttt {
+        align-items: start;
+    }
+
+    .whenitext {
+        margin-top: 10px !important;
+    }
+
+    .greenlight-created-texttt {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width:900px) {
+    .man {
+        width: 100%;
+    }
+
+    .createdtextgreen {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .messagetext {
+        font-size: 13px;
+    }
+
+    .messagetext {
+        width: 200px;
+    }
+
+    .getstartedbtnn {
+        width: 120px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .sign {
+        width: 220px;
+        height: auto;
+    }
+
+    .greenlight-created {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .greenlight-created-container {
+        padding-right: 20px;
+    }
+
+    .greenlight-created-container {
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 600px) {
+    .createdtextgreen {
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .messagetext {
+        font-size: 12px;
+        width: 180px;
+        padding: 2px 20px;
+    }
+
+    .getstartedbtnn {
+        width: 100px;
+        height: 36px;
+        font-size: 12px;
+    }
+
+    .whenitext,
+    .nameofsign,
+    .thankyou {
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+    }
+
+    .signnamebutton {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .createdtexttttttttt {
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+
+    .greenlight-created-container {
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .greenlight-created {
+        padding: 20px;
+    }
+}
+@media (max-width: 420px) {
+    .createdtextgreen {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .messagetext {
+        width: 160px;
+        font-size: 11px;
+    }
+
+    .getstartedbtnn {
+        width: 90px;
+        height: 32px;
+        font-size: 11px;
+    }
+    .createdtextgreen{
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .whenitext,
+    .nameofsign,
+    .thankyou {
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .sign {
+        width: 180px;
+    }
+}

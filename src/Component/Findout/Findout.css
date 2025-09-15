@@ -1,0 +1,296 @@
+.findout {
+    background-image: url('/Images/Group 431 (1).png');
+    background-position: center;
+    background-size: 100% 100%;
+    height: 984px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.findoutmain {
+    width: 824px !important;
+    /* height: 788px !important; */
+    border-radius: 43px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 101px 163px 81px 88px;
+    background-color: #FFFFFF;
+}
+
+
+.weretext {
+    font-family: HeroNew-ExtraBold;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 70px;
+    leading-trim: NONE;
+    line-height: 85px;
+    letter-spacing: -3%;
+    color: #240D4B;
+    margin: 0px !important;
+    margin-bottom: 22px !important;
+}
+
+
+.ourunique {
+    font-family: HeroNew;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 19px;
+    leading-trim: NONE;
+    line-height: 30px;
+    letter-spacing: 0%;
+    margin: 0px !important;
+
+    color: #232323;
+    max-width: 573px;
+}
+
+.focus {
+    font-family: HeroNew-Bold;
+    font-weight: 700;
+    font-style: Bold;
+    margin: 0px !important;
+
+}
+
+
+
+
+
+
+
+.simplicity-container {
+    margin-top: 88.63px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.simplicity-box {
+    margin-top: 123px;
+    margin-left: 120px;
+    background: #fff;
+    padding: 101px 168px 81px 88px;
+    border-radius: 43px;
+    max-width: 824px;
+}
+
+.simplicity-box h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #6c5ce7;
+    /* purple shade */
+}
+
+.simplicity-buttons {
+    margin-top: 58px;
+    display: flex;
+    gap: 15px;
+}
+
+.btn-purple {
+    outline: none;
+    border: none;
+    width: 177px;
+    height: 51px;
+    background-color: #240D4B;
+    border-radius: 11px;
+    font-family: HeroNew-ExtraBold;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 19px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.btn-purple:hover {
+    opacity: 0.8;
+}
+
+.btn-green {
+    width: 167px;
+    height: 51px;
+    background-color: #240D4B;
+    border-radius: 11px;
+    font-family: HeroNew-ExtraBold;
+    font-weight: 800;
+    font-style: ExtraBold;
+    font-size: 19px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #232323;
+    cursor: pointer;
+    background-color: transparent;
+    border: 5px solid #89D991;
+    transition: opacity 0.3s ease;
+}
+
+.btn-green:hover {
+    opacity: 0.8;
+}
+
+@media (max-width:1490px) {
+    .simplicity-box {
+        padding: 60px;
+    }
+    .simplicity-container{
+        margin-top: 50px;
+    }
+
+    .ourunique {
+        font-size: 17px;
+    }
+
+    .weretext {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .findout {
+        height: 800px;
+    }
+
+    .simplicity-box {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .findout{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:1200px) {
+    .weretext {
+        font-size: 50px;
+        line-height: 65px;
+    }
+
+    .simplicity-buttons {
+        margin-top: 20px;
+    }
+
+    .weretext {
+        margin-bottom: 10px !important;
+    }
+
+    .ourunique {
+        max-width: 470px;
+    }
+
+    .findout {
+        height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .simplicity-box {
+        margin: 0px;
+    }
+
+    .simplicity-container {
+        margin: 0px;
+    }
+}
+
+@media (max-width:700px) {
+    .weretext {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .ourunique {
+        max-width: unset;
+    }
+
+    .simplicity-box {
+        padding: 40px;
+    }
+
+    .simplicity-box {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .btn-purple {
+        width: 150px;
+        font-size: 14px;
+        height: 40px;
+    }
+
+    .btn-green {
+        width: 150px;
+        font-size: 14px;
+        height: 40px;
+        border-width: 3px;
+    }
+
+    .findout {
+        height: 650px;
+    }
+}
+
+
+@media (max-width:490px) {
+    .weretext {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .ourunique {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .findout {
+        height: 550px;
+    }
+}
+
+@media (max-width:440px) {
+    .weretext {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .ourunique{
+        font-size: 12px;
+    }
+    .simplicity-box{
+        margin: 0px;
+    }    .findout {
+        height: 500px;
+    }
+        .simplicity-box {
+        padding: 30px;
+    }
+    .simplicity-box{
+        width: 100%;
+    }
+    .simplicity-buttons{
+        flex-direction: column;
+    }
+    .simplicity-buttons{
+        gap: 10px;
+    }
+        .simplicity-box {
+        padding: 18px;
+        border-radius: 20px;
+    }
+        .btn-purple ,.btn-green{
+        width: 120px;
+        font-size: 12px;
+        height: 40px;
+    }
+
+}
