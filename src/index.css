@@ -5,6 +5,8 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Force light color scheme across browsers */
+  color-scheme: only light;
 }
 
 h1, h2, h3, h4, h5, h6, p, span, a, li, button {
@@ -13,10 +15,12 @@ h1, h2, h3, h4, h5, h6, p, span, a, li, button {
   box-sizing: border-box;
 }
 
-body{
+html, body, #root {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #FFFFFF !important;
+  color: #000000;
 }
 
 @font-face {
