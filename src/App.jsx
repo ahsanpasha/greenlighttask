@@ -12,17 +12,15 @@ import Footer from './Component/Footer/Footer'
 const App = () => {
   return (
     <div>
-      
-      <Hero/>
-      <OurWebsites/>
-     <GetWebsite/>
-     <Findout/>
-      <Expect/>
-              <GreenlightCreated/>  
 
-        <GivingBack/>
-    
-      <Footer/> 
+      <Hero />
+      <OurWebsites />
+      <GetWebsite />
+      <Findout />
+      <Expect />
+      <GreenlightCreated />
+      <GivingBack />
+      <Footer />
     </div>
   )
 }
