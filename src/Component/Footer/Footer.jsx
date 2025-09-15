@@ -16,7 +16,7 @@ const Footer = () => {
                     </div>
                     <div className='emaildiv'>
                         <img src='/Images/phone.svg' className='neweewewewe' alt='' />
-                        <p>01234 567 890</p>
+                        <p className='emailtextttt'>01234 567 890</p>
                     </div>
                     <div className='socialiconssssssss'>
                         <img src='/Images/facebook.svg' className='neweewewewe' style={{ cursor: "pointer" }} alt='' />

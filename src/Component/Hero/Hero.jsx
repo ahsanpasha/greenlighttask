@@ -15,7 +15,7 @@ function Hero() {
     setAnchorEl(null);
   };
 
-  
+
   const handleScrollToSection = (page) => {
     const targetId = page;
     if (targetId) {
@@ -28,28 +28,28 @@ function Hero() {
 
   return (
     <div>
-      <div className="herodiv" style={{position:"relative"}}>
+      <div className="herodiv" style={{ position: "relative" }}>
         <div className="herotextdivvvvv">
           <div>
-          <img className="herologoooooo" src="/Images/logogreen.svg" alt="" />
-          <AppBar
-          className="fjdshfkjsadfjksdhfjksdhf"
-                position="absolute"
-                color="transparent"
-                elevation={0}
-                sx={{ boxShadow: "none", p: 0 ,top:"10px",right:"10px"}}
-              >
-                <div style={{ display: "flex", justifyContent: "flex-end" }}>
-                  <IconButton
-                    edge="end"
-                    color="inherit"
-                    onClick={handleOpenMenu}
-                    sx={{ p: 0, m: 0 }}
-                  >
-                    <MenuIcon />
-                  </IconButton>
-                </div>
-              </AppBar></div>
+            <img className="herologoooooo" src="/Images/logogreen.svg" alt="" />
+            <AppBar
+              className="fjdshfkjsadfjksdhfjksdhf"
+              position="absolute"
+              color="transparent"
+              elevation={0}
+              sx={{ boxShadow: "none", p: 0, top: "10px", right: "10px" }}
+            >
+              <div style={{ display: "flex", justifyContent: "flex-end" }}>
+                <IconButton
+                  edge="end"
+                  color="inherit"
+                  onClick={handleOpenMenu}
+                  sx={{ p: 0, m: 0 }}
+                >
+                  <MenuIcon sx={{ color: "#FFFFFF" }}/>
+                </IconButton>
+              </div>
+            </AppBar></div>
           <p className="ready">Ready To Go</p>
           <p className="smart">Smart and efficient websites</p>
           <p className="specialize">
@@ -86,7 +86,7 @@ function Hero() {
                     onClick={handleOpenMenu}
                     sx={{ p: 0, m: 0 }}
                   >
-                    <MenuIcon />
+                    <MenuIcon sx={{ color: "#FFFFFF" }} />
                   </IconButton>
                 </div>
               </AppBar>
@@ -123,7 +123,7 @@ function Hero() {
             onClose={handleCloseMenu}
             PaperProps={{
               sx: {
-                bgcolor: "#41286C", 
+                bgcolor: "#41286C",
                 color: "white",
                 minWidth: 200,
                 textAlign: "center",
