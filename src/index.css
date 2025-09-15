@@ -20,7 +20,6 @@ html, body, #root {
   padding: 0;
   box-sizing: border-box;
   background-color: #FFFFFF !important;
-  color: #000000;
 }
 
 @font-face {
